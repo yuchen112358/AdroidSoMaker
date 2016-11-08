@@ -35,5 +35,4 @@
 
 `ndk-build -C <project路径>` ——  先cd进入`<project路径>`，然后执行ndk-build  
 
-** ndk-build的实质 **
-ndk-build 其实就是对GNU Make的封装，它的目的是调用正确的NDK编译脚本，它等价于 make -f $NDKROOT/build/core/build-local.mk [参数]
+**ndk-build的实质:**ndk-build 其实就是对GNU Make的封装，它的目的是调用正确的NDK编译脚本，它等价于 make -f $NDKROOT/build/core/build-local.mk [参数]
